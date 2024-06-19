@@ -2,7 +2,8 @@
 
 ## DataSets 
 copy your data from your directory to snips folder
-```cd  /ConditionalGPT2/src/utils/
+```
+cd  /ConditionalGPT2/src/utils/
 cp  YourDir/test.in /ConditionalGPT2/test.seq
 cp  YourDir/testLabel.in /ConditionalGPT2/test.label
 paste -d'\t'  test.label  test.seq > test.tsv
@@ -16,7 +17,8 @@ To run this code, you need following dependencies
 - transformers 2.9 
 
 ## How to run 
-```python /ConditionalGPT2/src/bert_aug/cgpt2.py \
+```
+python /ConditionalGPT2/src/bert_aug/cgpt2.py \
          --data_dir '/ConditionalGPT2/src/utils/datasets/snips' \
          --output_dir '/ConditionalGPT2/cgpt2' \
          --num_train_epochs 10 \

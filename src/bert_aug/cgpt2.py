@@ -1,4 +1,4 @@
-# This repository contains code based on the original project from https://github.com/varunkumar-dev/TransformersDataAugmentation with modifications made by Nour-Br.
+# This code is based on the original project from https://github.com/varunkumar-dev/TransformersDataAugmentation with modifications made by Nour-Br.
 
 
 import csv

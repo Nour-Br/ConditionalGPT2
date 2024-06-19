@@ -1,9 +1,12 @@
 # ConditionalGPT2
 
-This repository contains code based on the original project from https://github.com/varunkumar-dev/TransformersDataAugmentation with modifications made by Nour-Br.
-
 ## DataSets 
-
+copy your data from your directory to snips folder
+cd  /ConditionalGPT2/src/utils/
+cp  YourDir/test.in /ConditionalGPT2/test.seq
+cp  YourDir/testLabel.in /ConditionalGPT2/test.label
+paste -d'\t'  test.label  test.seq > test.tsv
+repeat these for train and valid data
 
 ## Dependencies 
 To run this code, you need following dependencies 

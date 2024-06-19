@@ -1,5 +1,5 @@
-# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
-# SPDX-License-Identifier: CC-BY-NC-4.0
+# This repository contains code based on the original project from https://github.com/varunkumar-dev/TransformersDataAugmentation with modifications made by Nour-Br.
+
 
 import csv
 import os

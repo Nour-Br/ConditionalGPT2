@@ -18,7 +18,6 @@ python /ConditionalGPT2/src/bert_aug/cgpt2.py \
          --num_train_epochs 10 \
          --block_size 64 \
          --learning_rate 5e-05 \
- 
 
 ## License
 
